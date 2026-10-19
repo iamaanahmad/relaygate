@@ -1,0 +1,16 @@
+project_id = "ai-reliability-gateway"
+
+[functions.bootstrap-workspace]
+verify_jwt = false
+
+[functions.provider-keys]
+verify_jwt = true
+
+[functions.api-keys]
+verify_jwt = true
+
+[functions.members]
+verify_jwt = true
+
+[functions.gateway]
+verify_jwt = false
